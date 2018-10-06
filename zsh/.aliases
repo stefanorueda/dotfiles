@@ -1,0 +1,4 @@
+# Tanda
+alias tanda-remote-ssh='ssh deployer@49.255.232.162 -p 11922'
+alias tanda-sync='./useful_scripts/dev-server/start-sync.sh remote marvin'
+alias tanda='cd payaus'
