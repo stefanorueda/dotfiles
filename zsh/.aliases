@@ -9,3 +9,6 @@ alias tanda='cd ~/tanda/payaus'
 # Custom rails command
 alias rails-kill='kill -9 $(lsof -ti tcp:3000)'
 alias ts='ssh tanda'
+
+# Monkey patch oh-my-zsh alias
+alias gp='ggpush'
