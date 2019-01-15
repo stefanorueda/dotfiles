@@ -12,3 +12,6 @@ alias ts='ssh tanda'
 
 # Monkey patch oh-my-zsh alias
 alias gp='ggpush'
+
+# Sweevr
+alias sw='cd ~/sweevr'
