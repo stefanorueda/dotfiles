@@ -15,3 +15,5 @@ alias gp='ggpush'
 
 # Sweevr
 alias sw='cd ~/sweevr'
+
+alias mux='tmuxinator'
