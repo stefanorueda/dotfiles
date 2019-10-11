@@ -50,13 +50,13 @@ windows:
       # synchronize: after
       panes:
         - htop:
-          - ssh tanda
+          - tanda-remote-ssh
           - htop
         - syncer:
           - tanda-sync
         - rails c
         - server:
-          - ssh tanda
+          - tanda-remote-ssh
           - tanda-server
         -
   - editor:

@@ -9,6 +9,8 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Plug 'andymass/vim-matchup'
+Plug 'tyrannicaltoucan/vim-quantum'
+Plug 'kaicataldo/material.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -22,8 +24,8 @@ call plug#end()
 
 " vim config
 set backspace=indent,eol,start
-set clipboard=unnamedplus " need +xterm_clipboard feature enabled in vim
-"set clipboard=unnamed " use this for macOS
+"set clipboard=unnamedplus " need +xterm_clipboard feature enabled in vim
+set clipboard=unnamedplus " use this for macOS
 " set cursorline " Need to use vim 8.1+ because https://github.com/vim/vim/issues/2584
 set expandtab
 set hidden
@@ -101,7 +103,10 @@ if (has("termguicolors"))
 endif
 
 syntax on
-colorscheme onedark
+" colorscheme onedark
+colorscheme quantum
+let g:quantum_black=1
+let g:quantum_italics=1
 
 " vim-matchup config
 let g:matchup_matchparen_deferred = 1
